@@ -1,0 +1,159 @@
+/* Product Review Container */
+.product-review-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Product Detail Section */
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.product-image-section {
+  flex: 1;
+  text-align: center;
+}
+
+.main-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-info-section {
+  flex: 1;
+  padding: 10px 20px;
+}
+
+.product-name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.product-ratings {
+  font-size: 16px;
+  color: #f39c12;
+  margin-bottom: 15px;
+}
+
+.product-price {
+  font-size: 22px;
+  color: #27ae60;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sold-count {
+  font-size: 14px;
+  color: #777;
+  font-weight: normal;
+}
+
+.product-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Add to Cart Button */
+.add-to-cart-button {
+  display: inline-block;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+  background-color: #c0392b;
+}
+
+/* Customer Reviews */
+.customer-reviews {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-reviews h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.customer-reviews p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-detail {
+    flex-direction: column;
+  }
+
+  .product-info-section {
+    padding: 10px;
+  }
+}
+.customer-reviews {
+  margin-top: 30px;
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.customer-reviews h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.reviews-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.review-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.review-item:last-child {
+  border-bottom: none;
+}
+
+.review-header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.review-comment {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #777;
+}

@@ -1,0 +1,160 @@
+/* Profile Container */
+.profile-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid #1d63ff;
+}
+
+.profile-name {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.profile-email {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Contact Information */
+.profile-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.profile-details h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #1d63ff;
+}
+
+/* Order History */
+.profile-orders {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.profile-orders h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #1d63ff;
+}
+
+/* Table Styles */
+.responsive-table {
+  overflow-x: auto;
+}
+
+.order-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.order-table th,
+.order-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.order-table th {
+  background-color: #1d63ff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.order-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.order-table td {
+  font-size: 14px;
+}
+
+.status {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status.delivered {
+  color: #4caf50;
+}
+
+.status.shipped {
+  color: #ffa000;
+}
+
+.status.pending {
+  color: #f44336;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .profile-name {
+    font-size: 22px;
+  }
+
+  .profile-email {
+    font-size: 14px;
+  }
+
+  .profile-details h2,
+  .profile-orders h2 {
+    font-size: 18px;
+  }
+
+  .order-table th,
+  .order-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+/* Cart Button */
+.cart-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cart-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #1d63ff;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  border: 1px solid #1d63ff;
+}
+
+.cart-button:hover {
+  background-color: #1549b2;
+  border-color: #1549b2;
+}
