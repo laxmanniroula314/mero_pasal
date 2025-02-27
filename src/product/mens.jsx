@@ -1,14 +1,14 @@
 import React from "react";
 import ProductPage from "../product/product";
-import image1 from "../assets/mencloth/1st.jpg";
-import image2 from "../assets/mencloth/2nd.jpg";
-import image3 from "../assets/mencloth/3rd.jpg";
-import image4 from "../assets/mencloth/4th.jpg";
-import image5 from "../assets/mencloth/5th.jpg";
-import image6 from "../assets/mencloth/6th.jpg";
-import image7 from "../assets/mencloth/7th.jpg";
-import image8 from "../assets/mencloth/8th.jpg";
-
+import image1 from "../assets/mencloth/m1.jpg";
+import image2 from "../assets/mencloth/m2.jpg";
+import image3 from "../assets/mencloth/m3.jpg";
+import image4 from "../assets/mencloth/m4.jpg";
+import image5 from "../assets/mencloth/m5.jpg";
+import image6 from "../assets/mencloth/m6.jpg";
+import image7 from "../assets/mencloth/m7.jpg";
+import image8 from "../assets/mencloth/m8.jpg";
+import image9 from "../assets/mencloth/m9.jpg";
 export const menProducts = [
   {
     id: 1,
@@ -105,6 +105,18 @@ export const menProducts = [
     slug: "mens-belt",
     content:
       "High-quality leather belt for men, a versatile accessory for any outfit.",
+  },
+  {
+    id: 9,
+    name: "Men's Shorts",
+    price: 699,
+    sold: "1.1K",
+    ratings: 4.7,
+    reviews: 190,
+    image: image9,
+    slug: "mens-shorts",
+    content:
+      "Comfortable and stylish shorts for men, perfect for warm weather and casual wear.",
   },
 ];
 

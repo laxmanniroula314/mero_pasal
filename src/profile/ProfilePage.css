@@ -84,7 +84,7 @@
 }
 
 .order-table th {
-  background-color: #1d63ff;
+  background-color: #2a59bd;
   color: #fff;
   font-weight: bold;
 }
@@ -147,7 +147,7 @@
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #1d63ff;
+  background-color: #264fa8;
   text-decoration: none;
   border-radius: 8px;
   transition: background-color 0.3s ease;

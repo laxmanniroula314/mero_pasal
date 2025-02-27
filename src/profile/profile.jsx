@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./ProfilePage.css";
-import image1 from "../assets/profile.jpg";
+import image1 from "../assets/profile.png";
 
 const ProfilePage = () => {
   const user = {
@@ -37,7 +37,6 @@ const ProfilePage = () => {
 
   return (
     <div className="profile-container">
-      {/* Profile Header */}
       <div className="profile-header">
         <div className="profile-image-container">
           <img
@@ -98,7 +97,7 @@ const ProfilePage = () => {
         )}
       </div>
 
-      {/* Cart Button */}
+  
       <div className="cart-button-container">
         <Link to="/CheckoutPage" className="cart-button">
           🛒 Go to Cart

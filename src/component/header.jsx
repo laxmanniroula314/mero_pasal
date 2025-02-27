@@ -2,14 +2,16 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../product/CartContext";
 import CartPopout from "../product/CartPopout";
+import searchIcon from "../assets/search.png";
+import userIcon from "../assets/user.png";
 import "./Header.css";
 
 const Header = () => {
-  const { cart, removeFromCart } = useContext(CartContext); // Access cart and removeFromCart from context
-  const [showCart, setShowCart] = useState(false); // State to toggle cart pop-out
-  const [searchQuery, setSearchQuery] = useState(""); // State for search input
+  const { cart, removeFromCart } = useContext(CartContext);
+  const [showCart, setShowCart] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0); // Calculate total items in the cart
+  const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -18,12 +20,12 @@ const Header = () => {
 
   return (
     <header className="header">
-      {/* Logo */}
+  
       <Link to="/" className="logo">
-        MyEcommerce
+        Hamro E-Pasal
       </Link>
 
-      {/* Search Bar */}
+    
       <form className="search-bar" onSubmit={handleSearch}>
         <input
           type="text"
@@ -31,10 +33,11 @@ const Header = () => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
-        <button type="submit">Search</button>
+        <button type="submit" className="search-button">
+          <img src={searchIcon} alt="Search" className="search-icon" />
+        </button>
       </form>
 
-      {/* Navigation */}
       <nav className="nav">
         <Link to="/" className="nav-link">
           Home
@@ -43,13 +46,13 @@ const Header = () => {
           Products
           <div className="dropdown-menu">
             <Link to="/men" className="dropdown-item">
-              Men's Wear
+              Men's 
             </Link>
             <Link to="/women" className="dropdown-item">
-              Women's Wear
+              Women's 
             </Link>
             <Link to="/kids" className="dropdown-item">
-              Kids' Wear
+              Kid's 
             </Link>
           </div>
         </div>
@@ -61,10 +64,9 @@ const Header = () => {
         </Link>
       </nav>
 
-      {/* Profile and Cart Icons */}
       <div className="profile-cart">
         <Link to="/ProfilePage" className="profile-icon">
-          Profile
+          <img src={userIcon} alt="Profile" className="user-icon" />
         </Link>
         <div className="cart-icon" onClick={() => setShowCart((prev) => !prev)}>
           🛒
@@ -74,7 +76,7 @@ const Header = () => {
           <CartPopout
             cart={cart}
             onClose={() => setShowCart(false)}
-            removeFromCart={removeFromCart} // Pass removeFromCart function
+            removeFromCart={removeFromCart}
           />
         )}
       </div>

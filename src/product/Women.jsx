@@ -1,13 +1,14 @@
 import React from "react";
 import ProductPage from "../product/product";
-import image1 from "../assets/womencloth/a.jpg";
-import image2 from "../assets/womencloth/b.jpg";
-import image3 from "../assets/womencloth/c.jpg";
-import image4 from "../assets/womencloth/d.jpg";
-import image5 from "../assets/womencloth/e.jpg";
-import image6 from "../assets/womencloth/f.jpg";
-import image7 from "../assets/womencloth/g.jpg";
-import image8 from "../assets/womencloth/h.jpg";
+import image1 from "../assets/womencloth/w1.jpg";
+import image2 from "../assets/womencloth/w2.jpg";
+import image3 from "../assets/womencloth/w3.jpg";
+import image4 from "../assets/womencloth/w4.jpg";
+import image5 from "../assets/womencloth/w5.jpg";
+import image6 from "../assets/womencloth/w6.jpg";
+import image7 from "../assets/womencloth/w7.jpg";
+import image8 from "../assets/womencloth/w8.jpg";
+import image9 from "../assets/womencloth/w9.jpg";
 export const womenProducts = [
   {
     id: 1,
@@ -104,6 +105,18 @@ export const womenProducts = [
     slug: "womens-jacket",
     content:
       "Stylish and warm jacket for women, designed to keep you comfortable and chic during colder days.",
+  },
+  {
+    id: 9,
+    name: "Women's Watch",
+    price: 1499,
+    sold: "700",
+    ratings: 4.8,
+    reviews: 400,
+    image: image9,
+    slug: "womens-watch",
+    content:
+      "Elegant and functional watch, perfect for both formal and casual occasions.",
   },
 ];
 

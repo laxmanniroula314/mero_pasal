@@ -1,10 +1,10 @@
 import React from "react";
 import "./AboutUs.css";
-import image from "../assets/aboutus/about.jpg";
-import image1 from "../assets/aboutus/boss1.jpg";
-import image2 from "../assets/aboutus/boss2.jpg";
-import image3 from "../assets/aboutus/boss3.jpg";
-import image4 from "../assets/aboutus/boss4.jpg";
+import image from "../assets/aboutus/ab1.png";
+import image1 from "../assets/aboutus/t1.jpg";
+import image2 from "../assets/aboutus/t2.png";
+import image3 from "../assets/aboutus/t3.png";
+import image4 from "../assets/aboutus/t4.jpg";
 
 const AboutUs = () => {
   return (
@@ -30,7 +30,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Mission, Vision, Achievements */}
       <section className="about-details">
         <div className="detail-card">
           <div className="detail-icon">
@@ -65,7 +64,6 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* Leadership Team */}
       <section className="about-leadership">
         <h2>Meet Our Leadership Team</h2>
         <div className="leadership-team-cards">

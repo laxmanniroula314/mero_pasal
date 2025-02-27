@@ -1,13 +1,14 @@
 import React from "react";
 import ProductPage from "../product/product";
-import image1 from "../assets/kidcloth/i.jpg";
-import image2 from "../assets/kidcloth/ii.jpg";
-import image3 from "../assets/kidcloth/iii.jpg";
-import image4 from "../assets/kidcloth/iv.jpg";
-import image5 from "../assets/kidcloth/v.jpg";
-import image6 from "../assets/kidcloth/vi.jpg";
-import image7 from "../assets/kidcloth/vii.jpg";
-import image8 from "../assets/kidcloth/viii.jpg";
+import image1 from "../assets/kidcloth/k1.jpg";
+import image2 from "../assets/kidcloth/k2.jpg";
+import image3 from "../assets/kidcloth/k3.jpg";
+import image4 from "../assets/kidcloth/k4.jpg";
+import image5 from "../assets/kidcloth/k5.jpg";
+import image6 from "../assets/kidcloth/k6.jpg";
+import image7 from "../assets/kidcloth/k7.jpg";
+import image8 from "../assets/kidcloth/k8.jpg";
+import image9 from "../assets/kidcloth/k9.jpg"; 
 
 export const kidsProducts = [
   {
@@ -105,6 +106,18 @@ export const kidsProducts = [
     slug: "kids-backpack",
     content:
       "Spacious and lightweight backpack for kids, ideal for school and travel needs.",
+  },
+  {
+    id: 9,
+    name: "Kids Trousers",
+    price: 699,
+    sold: "200",
+    ratings: 4.7,
+    reviews: 75,
+    image: image9,
+    slug: "kids-trousers",
+    content:
+      "Comfortable and stylish trousers for kids, perfect for everyday wear and playtime.",
   },
 ];
 

@@ -2,15 +2,15 @@ import React, { useContext } from "react";
 import "./TrendingProducts.css";
 import { CartContext } from "../product/CartContext";
 import { useNavigate } from "react-router-dom";
-import image1 from "../assets/mencloth/5th.jpg";
-import image2 from "../assets/womencloth/c.jpg";
-import image3 from "../assets/kidcloth/vi.jpg";
-import image4 from "../assets/mencloth/3rd.jpg";
-import image5 from "../assets/womencloth/d.jpg";
-import image6 from "../assets/kidcloth/viii.jpg";
-import image7 from "../assets/mencloth/8th.jpg";
-import image8 from "../assets/womencloth/e.jpg";
-import image9 from "../assets/kidcloth/i.jpg";
+import image1 from "../assets/mencloth/m6.jpg";
+import image2 from "../assets/womencloth/w7.jpg";
+import image3 from "../assets/kidcloth/k3.jpg";
+import image4 from "../assets/mencloth/m3.jpg";
+import image5 from "../assets/womencloth/w3.jpg";
+import image6 from "../assets/kidcloth/k8.jpg";
+import image7 from "../assets/mencloth/m8.jpg";
+import image8 from "../assets/womencloth/w6.jpg";
+import image9 from "../assets/kidcloth/k1.jpg";
 
 const TrendingProducts = () => {
   const { addToCart } = useContext(CartContext);
@@ -108,7 +108,7 @@ const TrendingProducts = () => {
 
   return (
     <div className="trending-container">
-      <h2 className="trending-title">Trending Products</h2>
+      <h2 className="trending-title">New Arrivals </h2>
       <div className="trending-grid">
         {trendingProducts.map((product) => (
           <div key={product.id} className="product-card">

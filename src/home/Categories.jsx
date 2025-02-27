@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Categories.css";
-import image from "../assets/mens1.jpg";
+import image from "../assets/men.jpg";
 import image1 from "../assets/womencat.jpg";
 import image2 from "../assets/kid.jpg";
 
