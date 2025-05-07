@@ -22,9 +22,9 @@ const Footer = () => {
         {/* Column 2: Contact Info */}
         <div className="footer-column">
           <h4 className="footer-title">Contact Us</h4>
-          <p>Address: 123 Ecommerce St, ShopCity</p>
-          <p>Phone: +1 234 567 890</p>
-          <p>Email: <a href="mailto:support@myecommerce.com" className="footer-link">support@myecommerce.com</a></p>
+          <p>Address: xyz plaza , KTM</p>
+          <p>Phone:98022505255</p>
+          <p>Email:<a href="mailto:hamroepasal@gmail.com" className="footer-link">hamroepasal@gmail.com</a></p>
         </div>
 
          {/* Column 3: Social Media */}
